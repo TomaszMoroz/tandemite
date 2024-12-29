@@ -71,14 +71,19 @@ $menu-border: solid 1px #F1F5F5
   justify-content: space-between
   margin: 0 18.75%
 
+// .menu_wrapper__btn_group
+//   width: 66%
+
 .menu_wrapper__btn
   font-family: Roboto
   color: #2E3838
   font-size: 14px
   text-decoration: none
+  &:hover
+    color: #0A655E
 
 .menu_wrapper__btn + .menu_wrapper__btn
-  margin: 0 10px
+  margin: 0 20px
 
 .menu_wrapper__icons_group
   display: flex
@@ -88,6 +93,7 @@ $menu-border: solid 1px #F1F5F5
 
 .menu_wrapper__icon
   position: relative
+  cursor: pointer
 
 .menu_wrapper__icon-rounded
   display: flex
@@ -97,6 +103,7 @@ $menu-border: solid 1px #F1F5F5
   height: 40px
   background-color: #0A655E
   border-radius: 50%
+  cursor: pointer
 
 .menu_wrapper__icon-rounded img
   margin: auto
